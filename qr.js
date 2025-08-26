@@ -75,14 +75,14 @@ router.get('/', async (req, res) => {
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         
                         let cap = `
-🔐 *𝙳𝙾 𝙽𝙾𝚃 �𝚂𝙷𝙰𝚁𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 𝚆𝙸𝚃𝙷 �𝙽𝚈𝙾𝙽𝙴!!*
+ðŸ” *ð™³ð™¾ ð™½ð™¾ðšƒ ï¿½ðš‚ð™·ð™°ðšð™´ ðšƒð™·ð™¸ðš‚ ð™²ð™¾ð™³ð™´ ðš†ð™¸ðšƒð™· ï¿½ð™½ðšˆð™¾ð™½ð™´!!*
 
-Use this code to create your own *sᴏғɪᴀ-xᴍᴅ* WhatsApp User Bot. 🤖
+Use this code to create your own *sá´Ò“Éªá´€-xá´á´…* WhatsApp User Bot. ðŸ¤–
 
-📂 *WEBSITE:*  
-👉 https://xpro-botz-ofc.vercel.app/
+ðŸ“‚ *WEBSITE:*  
+ðŸ‘‰ https://xpro-botz-ofc.vercel.app/
 
-🛠️ *To add your SESSION_ID:*  
+ðŸ› ï¸ *To add your SESSION_ID:*  
 1. Open the \`session.js\` file in the repo.  
 2. Paste your session like this:  
 \`\`\`js
@@ -90,15 +90,15 @@ module.exports = {
   SESSION_ID: 'PASTE_YOUR_SESSION_ID_HERE'
 }
 \`\`\`  
-3. Save the file and run the bot. ✅
+3. Save the file and run the bot. âœ…
 
-⚠️ *NEVER SHARE YOUR SESSION ID WITH ANYONE!*
+âš ï¸ *NEVER SHARE YOUR SESSION ID WITH ANYONE!*
 `;
                     await sock.sendMessage(sock.user.id, {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
-                                title: "SOFIA XMD ✅",
+                                title: "SOFIA XMD âœ…",
                                 thumbnailUrl: "https://i.postimg.cc/Th8ckcks/20250826-121342.jpg",
                                 sourceUrl: "https://whatsapp.com/channel/0029VbBRYQA6buMQ3kgJTs11",
                                 mediaType: 2,
@@ -110,14 +110,14 @@ module.exports = {
                     } catch (e) {
                         let ddd = await sock.sendMessage(sock.user.id, { text: e.toString() });
                        let cap = `
-🔐 *𝙳𝙾 𝙽𝙾𝚃 𝚂𝙷𝙰𝚁𝙴 �𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 𝚆𝙸𝚃𝙷 𝙰𝙽𝚈𝙾𝙽𝙴!!*
+ðŸ” *ð™³ð™¾ ð™½ð™¾ðšƒ ðš‚ð™·ð™°ðšð™´ ï¿½ðšƒð™·ð™¸ðš‚ ð™²ð™¾ð™³ð™´ ðš†ð™¸ðšƒð™· ð™°ð™½ðšˆð™¾ð™½ð™´!!*
 
-Use this code to create your own *sᴏғɪᴀ-ᴍᴅ* WhatsApp User Bot. 🤖
+Use this code to create your own *sá´Ò“Éªá´€-á´á´…* WhatsApp User Bot. ðŸ¤–
 
-📂 *WEBSITE:*  
-👉 https://xpro-botz-ofc.vercel.app/
+ðŸ“‚ *WEBSITE:*  
+ðŸ‘‰ https://xpro-botz-ofc.vercel.app/
 
-🛠️ *To add your SESSION_ID:*  
+ðŸ› ï¸ *To add your SESSION_ID:*  
 1. Open the \`session.js\` file in the repo.  
 2. Paste your session like this:  
 \`\`\`js
@@ -125,15 +125,15 @@ module.exports = {
   SESSION_ID: 'PASTE_YOUR_SESSION_ID_HERE'
 }
 \`\`\`  
-3. Save the file and run the bot. ✅
+3. Save the file and run the bot. âœ…
 
-⚠️ *NEVER SHARE YOUR SESSION ID WITH ANYONE!*
+âš ï¸ *NEVER SHARE YOUR SESSION ID WITH ANYONE!*
 `;
                     await sock.sendMessage(sock.user.id, {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
-                                title: "SOFIA XMD ✅",
+                                title: "SOFIA XMD âœ…",
                                 thumbnailUrl: "https://i.postimg.cc/Th8ckcks/20250826-121342.jpg",
                                 sourceUrl: "https://whatsapp.com/channel/0029VbBRYQA6buMQ3kgJTs11",
                                 mediaType: 2,
@@ -146,7 +146,7 @@ module.exports = {
                     await delay(10);
                     await sock.ws.close();
                     await removeFile('./temp/' + id);
-                    console.log(`👤 ${sock.user.id} 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 ✅ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...`);
+                    console.log(`ðŸ‘¤ ${sock.user.id} ð—–ð—¼ð—»ð—»ð—²ð—°ð˜ð—²ð—± âœ… ð—¥ð—²ð˜€ð˜ð—®ð—¿ð˜ð—¶ð—»ð—´ ð—½ð—¿ð—¼ð—°ð—²ð˜€ð˜€...`);
                     await delay(10);
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
@@ -158,7 +158,7 @@ module.exports = {
             console.log("service restarted", err);
             await removeFile('./temp/' + id);
             if (!res.headersSent) {
-                await res.send({ code: "❗ Service Unavailable" });
+                await res.send({ code: "â— Service Unavailable" });
             }
         }
     }
@@ -166,12 +166,12 @@ module.exports = {
 });
 
 setInterval(() => {
-    console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
+    console.log("â˜˜ï¸ ð—¥ð—²ð˜€ð˜ð—®ð—¿ð˜ð—¶ð—»ð—´ ð—½ð—¿ð—¼ð—°ð—²ð˜€ð˜€...");
     process.exit();
 }, 180000);
 
 module.exports = router;
-��𝘀𝘀...");
+@...");
     process.exit();
 }, 180000);
 
